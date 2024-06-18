@@ -1,0 +1,132 @@
+ * {
+	
+	font-style:italic;
+}
+.heading {
+	text-align:center;
+	cursor:pointer;
+	
+	
+}
+.channel {
+	text-decoration:none;
+	background-color:#0277CF;
+	color:white;
+	height:56px;
+	width:56px;
+	border-radius:15px;
+	transition:1s;
+	
+}
+.channel:hover {
+	text-decoration:none;
+	background-color:#00D4FF;
+	color:white;
+	height:56px;
+	width:56px;
+	border-radius:15px;
+	transition:1s;
+	
+}
+.nav {
+	text-decoration:none;
+	text-align:left;
+	background-color:#FFA55F;
+	color:white;
+	overflow:hidden;
+	display:grid;
+	text-align:center;
+	transition:0.9s;
+}
+.nav:hover {
+	text-decoration:none;
+	text-align:left;
+	background-color:pink;
+	color:white;
+	overflow:hidden;
+	display:grid;
+	text-align:center;
+	transition:0.9s;
+}
+.dis {
+	text-decoration:none;
+	text-align:left;
+	background-color:purple;
+	color:white;
+	overflow:hidden;
+	display:grid;
+	text-align:center;
+	transition:0.9s;
+}
+.dis:hover {
+	text-decoration:none;
+	text-align:left;
+	background-color:blue;
+	color:white;
+	overflow:hidden;
+	display:grid;
+	text-align:center;
+	transition:0.9s;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.7em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  .body {
+		background-image:url(home.gif);
+		background-repeat:no-repeat;
+		background-position:cover;
+		background-size:3050px;
+		}
+	 .skin {
+		 text-align:center;
+		 height:500px;
+		 width:390px;
+	 }
+ .rocket {
+  position: fixed;  /* Fixed positioning for better animation control */
+  right: 3px;  /* Adjust as needed for horizontal positioning */
+  bottom: 0;  /* Start from the bottom of the viewport */
+  animation: animateRocket 5s linear infinite;  /* Animation name, duration, timing function, infinite loops */
+  width:1000px;
+  height:800px;
+  text-align:right;
+  
+}
+
+@keyframes animateRocket {
+  from {
+    transform: translateY(100%);  /* Start from 100% below the viewport */
+  }
+  to {
+    transform: translateY(0);  /* End at the top of the viewport */
+  }
+}
